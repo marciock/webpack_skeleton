@@ -1,0 +1,30 @@
+<template id='sei-la'>
+    <div >
+        <ul>
+            <li>Mamao</li>
+            <li>Mamao</li>
+            <li>Mamao</li>
+            <li>Mamao</li>
+        </ul>
+    </div>
+</template>
+
+<script>
+     const el=document.getElementsById('sei-la')
+     console.log(el)
+    export class SeiLa extends HTMLElement{
+        constructor(){
+            super();
+           
+           // let clone=el.content.cloneNode(true);
+            console.log(el)
+            this.appendChild(el);
+
+            
+
+        }
+    }
+
+
+    
+</script>
